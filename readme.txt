@@ -23,15 +23,16 @@ Creating a new branch!!
 
 
 
-创建并切换到新的dev分支，可以使用：
+Git鼓励大量使用分支：
 
-$ git switch -c dev
-直接切换到已有的master分支，可以使用：
+查看分支：git branch
 
-$ git switch master
-现在，我们把dev分支的工作成果合并到master分支上：
+创建分支：git branch <name>
 
-$ git merge dev
-合并完成后，就可以放心地删除dev分支了：
+切换分支：git checkout <name>或者git switch <name>
 
-$ git branch -d dev
+创建+切换分支：git checkout -b <name>或者git switch -c <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
