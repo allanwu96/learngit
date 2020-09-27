@@ -11,3 +11,11 @@ First Connecting ...
 
 要克隆一个仓库，首先必须知道仓库的地址，然后使用git clone命令克隆。
 $ git clone git@github.com:allanwu96/gitskills.git
+
+显示默认隐藏文件
+defaults write com.apple.finder AppleShowAllFiles Yes && killall Finder
+
+隐藏默认隐藏文件
+defaults write com.apple.finder AppleShowAllFiles No && killall Finder
+
+Creating a new branch!!
